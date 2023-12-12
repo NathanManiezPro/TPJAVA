@@ -29,9 +29,13 @@ public class Doublon {
 
      */
     public static boolean trier(int[] nombres){
+
         Arrays.sort(nombres);
+        // On peut parcourir en partant du second élément
         for(int mainIndex = 1; mainIndex<nombres.length; mainIndex++){
+            //On compare avec l'élément précédent
             if (nombres[mainIndex] == nombres[mainIndex-1]){
+                // Et return true si les 2 sont égaux
                 return true;
             }
         }
