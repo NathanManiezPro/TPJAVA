@@ -20,6 +20,11 @@ public class Stagiaire extends Collaborateur {
         this.finStage = finStage;
     }
 
+    @Override
+    public void danser(String danse) {
+
+    }
+
     public LocalDate getDebutStage() {
         return debutStage;
     }

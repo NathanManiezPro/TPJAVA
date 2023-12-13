@@ -27,6 +27,9 @@ public abstract class Collaborateur {
         this.finContrat = finContrat;
     }
 
+    public Collaborateur(String nom, String prenom, LocalDate dateNaissance) {
+    }
+
     public String getNom() {
         return nom;
     }
